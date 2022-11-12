@@ -2,12 +2,12 @@
 
 An example To Do App built with Laravel and React. It includes:
 
-* An auth API, using [tymon/jwt-auth](https://github.com/tymondesigns/jwt-auth) to manage the JSON Web Tokens.
-* Routing with react-router (private, public and split routes).
-* [Feature tests](https://github.com/devinsays/laravel-react-bootstrap/blob/master/docs/automated-testing.md).
-* [Database seeding](https://github.com/devinsays/laravel-react-bootstrap/blob/master/docs/database-seeds.md).
-* A base ApiController to help return [standardized responses](https://github.com/devinsays/laravel-react-bootstrap/blob/master/docs/api-format.md).
-* Bootstrap for styling.
+-   An auth API, using [tymon/jwt-auth](https://github.com/tymondesigns/jwt-auth) to manage the JSON Web Tokens.
+-   Routing with react-router (private, public and split routes).
+-   [Feature tests](https://github.com/stack-guru/laravel-react-bootstrap/blob/master/docs/automated-testing.md).
+-   [Database seeding](https://github.com/stack-guru/laravel-react-bootstrap/blob/master/docs/database-seeds.md).
+-   A base ApiController to help return [standardized responses](https://github.com/stack-guru/laravel-react-bootstrap/blob/master/docs/api-format.md).
+-   Bootstrap for styling.
 
 Use it as a base for quick prototypes or to learn from. Suggestions, recommendations, and pull requests welcome!
 
@@ -30,7 +30,7 @@ If you don't already have a LEMP environment running, [Valet](https://laravel.co
 #### Clone the repository:
 
 ```bash
-git clone https://github.com/devinsays/laravel-react-bootstrap
+git clone https://github.com/stack-guru/laravel-react-bootstrap
 ```
 
 #### Create your environment file:
@@ -92,7 +92,7 @@ If you need sample data to work with, you can seed the database:
 php artisan migrate:refresh --seed --force
 ```
 
-Read more in [/docs/database-seeds.md](https://github.com/devinsays/laravel-react-bootstrap/blob/master/docs/database-seeds.md).
+Read more in [/docs/database-seeds.md](https://github.com/stack-guru/laravel-react-bootstrap/blob/master/docs/database-seeds.md).
 
 #### Seeded User
 
@@ -109,9 +109,9 @@ Laravel sends emails for password resets. The default for MAIL_DRIVER in .env.ex
 
 **Internal Docs:**
 
-* [Code Standards](https://github.com/devinsays/laravel-react-bootstrap/blob/master/docs/code-standards.md)
-* [Automated Testing](https://github.com/devinsays/laravel-react-bootstrap/blob/master/docs/automated-testing.md)
-* [Database Seeding](https://github.com/devinsays/laravel-react-bootstrap/blob/master/docs/database-seeds.md)
+-   [Code Standards](https://github.com/stack-guru/laravel-react-bootstrap/blob/master/docs/code-standards.md)
+-   [Automated Testing](https://github.com/stack-guru/laravel-react-bootstrap/blob/master/docs/automated-testing.md)
+-   [Database Seeding](https://github.com/stack-guru/laravel-react-bootstrap/blob/master/docs/database-seeds.md)
 
 **Laravel Docs:**
 

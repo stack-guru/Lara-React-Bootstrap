@@ -23,6 +23,7 @@ This project runs on a LEMP stack (Linux, NGINX, MySQL, & PHP).
 
 The backend built with Laravel. The frontend is 100% React.
 
+
 If you don't already have a LEMP environment running, [Valet](https://laravel.com/docs/valet) is a good option for OSX.
 
 ## Set Up
